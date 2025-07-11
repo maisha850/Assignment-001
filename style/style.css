@@ -103,3 +103,81 @@ margin-bottom: 23px;
 .center{
     text-align: center;
 }
+/* Feedback section */
+.card-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid #F2EDED;
+    width: 300px;
+    border-radius: 14px;
+    padding: 24px 0px 24px 24px;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #1E1E1E;
+    margin-top: 24px;
+}
+.card-des{
+    font-size: 16px;
+    font-weight: 400;
+     color: #1E1E1E;
+     margin-top: 8px;
+}
+.review{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-top: 24px;
+}
+.avater{
+    border-radius: 50%;
+}
+.r-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.date{
+     font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+
+}
+.sec-gap{
+    margin-top: 137px;
+}
+/* webflow */
+.shadow{
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+     border-radius: 14px;
+      border: 1px solid #F2EDED;
+
+}
+.web-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.web{
+    padding: 71px 150px;
+}
+.web-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.margin-top{
+    margin-top: 20px;
+}
+.web-img{
+    border-radius: 48px;
+  
+}
