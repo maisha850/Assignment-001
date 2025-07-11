@@ -23,6 +23,7 @@ header{
 .logo{
     font-weight: 900;
     font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -180,4 +181,64 @@ margin-bottom: 23px;
 .web-img{
     border-radius: 48px;
   
+}
+/* form */
+.form-text{
+    font-weight: bold;
+    font-size: 97px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+input,textarea{
+    border: none;
+    border-radius: 10px;
+     box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+     border: 1px solid #F2EDED;
+     width: 497px;
+     padding: 20px 0 20px 32px;
+     font-size: 20px;
+       margin-top: 10px;
+}
+.form-margin{
+    margin-bottom: 20px;
+}
+.form-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 100px;
+}
+.footer{
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    border: 1px solid #F2EDED;
+    padding: 104px 0 104px 0;
+
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f-text{
+    color: #8987A1;
+    text-align: center;
+    
+}
+ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:#8987A1 ;
 }
